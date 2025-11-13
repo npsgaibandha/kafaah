@@ -1,0 +1,15 @@
+.prip{
+    padding: 50px;
+    color: var(--wt);
+    margin-top: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+}

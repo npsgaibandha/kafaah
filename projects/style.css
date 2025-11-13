@@ -1,0 +1,36 @@
+
+
+.prhr {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	width: 100%;
+	padding: 2%;
+	justify-content: space-between;
+	height: 100vh;
+	/* align-items: center; */
+	margin-top: 50px;
+}
+.btn {
+	margin: 40px;
+	animation: upore 0.7s linear;
+}
+/* .buttons123 {
+	
+} */
+.buttons123:nth-child(1) {
+	animation-delay: 0.3s;
+}
+.buttons123:nth-child(2) {
+	animation-delay: 0.4s;
+}
+.head {
+	color: #fff;
+	font-size: 50px;
+	animation: comein2 0.7s linear;
+	margin-top: 180px;
+	margin-left: 30px;
+}
+.btn:hover {
+	cursor: pointer;
+	transform: scale(110%);
+}

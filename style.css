@@ -1,0 +1,225 @@
+:root {
+	--navCol: #ffffff;
+	--grad1: #019df0;
+	--grad2: #009116;
+	--wt: #fff;
+	--blue: #e1ff00;
+	--sha: #aadbf0;
+	--sda: #c1f2d6;
+	--blu: #00a6ff;
+	--grn: #00b152;
+	--gr: #44bd7c;
+	--bl: #4dc7f8;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	/* font-family: sans-serif; */
+}
+
+body {
+	/* display: flex; */
+	width: 100%;
+	/* height: 100vh; */
+	background: linear-gradient(
+		120deg,
+		var(--grad1),
+		var(--grad2),
+		var(--grad1),
+		var(--grad2),
+		var(--grad1)
+	);
+	animation: Grand 20s linear infinite;
+	background-size: 400% 400%;
+	font-family: sans-serif;
+}
+
+@keyframes Grand {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.mainNav {
+	width: 100%;
+	padding: 16px 5px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.mainNav .navUl {
+	display: flex;
+	justify-content: right;
+}
+li {
+	margin-right: 20px;
+	font-size: 20px;
+}
+.navUl a {
+	color: var(--wt);
+	transition: 0.5s;
+	padding: 14px 20px;
+}
+nav a:hover {
+	color: var(--blue);
+	border-bottom: 1.3px solid var(--blue);
+}
+
+a.active {
+	color: var(--navCol);
+	border-bottom: 1.3px solid var(--navCol);
+}
+
+@keyframes damtobam {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes comein {
+	from {
+		margin-top: 0px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 80px;
+		opacity: 1;
+	}
+}
+@keyframes comein2 {
+	from {
+		margin-top: 0px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 180px;
+		opacity: 1;
+	}
+}
+@keyframes upore {
+	from {
+		opacity: 0;
+		margin-top: 200px;
+	}
+	to {
+		opacity: 1;
+		margin-top: 40px;
+	}
+}
+@keyframes grand2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.footer li {
+	margin-top: 5px;
+}
+.footer li a {
+	color: var(--wt);
+}
+.footer li a:hover {
+	text-decoration: underline;
+	color: #0084ff;
+}
+@keyframes asona {
+	from {
+		opacity: 0;
+		margin-left: 150px;
+	}
+	to {
+		opacity: 1;
+		margin-left: 0px;
+	}
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	padding: 3% 4%;
+	background: linear-gradient(-120deg, var(--bl) 0%, var(--gr) 75%);
+	/* background-size: 400% 400%;
+	animation: grand2 10s ease infinite; */
+}
+.logos img {
+	width: 200px;
+}
+.icons i {
+	font-size: 40px;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #fff;
+}
+.icons :nth-child(1):hover {
+	color: #2694ee;
+}
+.icons :nth-child(2):hover {
+	color: #0fca3b;
+}
+.icons :nth-child(3):hover {
+	color: #ed3535;
+}
+
+.footp {
+	font-size: 20px;
+	color: var(--wt);
+}
+/* btn */
+.btn {
+	background: linear-gradient(
+		120deg,
+		var(--blu),
+		var(--grn),
+		var(--blu),
+		var(--grn),
+		var(--blu)
+	);
+	padding: 30px 50px;
+	border: 0;
+	border-radius: 30px;
+	background-size: 400% 400%;
+	/* animation: Grand linear infinite 10s; */
+	color: #fff;
+	box-shadow: 0 0 15px #fff;
+
+	transition: 0.4s;
+}
+@keyframes Grand {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.imagelog img {
+	width: 90px;
+	position: fixed;
+	left: 15px;
+	top: 5px;
+
+}
