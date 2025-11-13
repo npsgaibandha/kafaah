@@ -4,7 +4,7 @@ const footer = document.createElement('footer')
 footer.classList.add('footer')
 body.appendChild(footer)
 footer.innerHTML = `<div class="logos">
-				<img src="../pics/kafag.png" alt="" />
+				<img src="pics/kafag.png" alt="" />
 				
 			</div>
 			<div class="icons">'
