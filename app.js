@@ -3,7 +3,7 @@ const footer = document.createElement("footer");
 footer.classList.add("footer");
 body.appendChild(footer);
 footer.innerHTML = `<div class="logos">
-				<img src="../pics/kafag.png" alt="" />
+				<img src="pics/kafag.png" alt="" />
 				
 			</div>
 			<div class="icons">'
@@ -33,22 +33,22 @@ footer.innerHTML = `<div class="logos">
 			<div class ="twoflex">
 			<div class="menus">
 				<ul>
-					<li><a href="../about/index.html">About </a></li>
+					<li><a href="about/index.html">About </a></li>
 					<li><a href="">Team Members</a></li>
 					<li><a href="">Join us</a></li>
-					<li><a href="../projects/index.html">Project Info</a></li>
+					<li><a href="projects/index.html">Project Info</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
 			</div>
 			<div class="lan">
 				<ul>
 					<li><a href="">Terms and Conditions</a></li>
-					<li><a href="../memshi/index.html">Joining Conditions</a></li>
-					<li><a href="../prp/index.html">Privay and Policy</a></li>
+					<li><a href="memshi/index.html">Joining Conditions</a></li>
+					<li><a href="prp/index.html">Privay and Policy</a></li>
 				</ul>
 			</div>
 			</div>
-			<a href="../coprs/index.html" class="footp">©kafaah</a>`;
+			<a href="coprs/index.html" class="footp">©kafaah</a>`;
 
 let link = document.createElement("link");
 link.rel = "stylesheet";
@@ -65,26 +65,26 @@ nav.innerHTML = `
 <ul class="navUl">
 		
         <li id="anim">
-		<a   href="../home/index.html">Home</a>
+		<a   href="home/index.html">Home</a>
         <div class="bodre"></div></li>
         <li>
-		<a   href="../projects/index.html">Projects</a>
+		<a   href="projects/index.html">Projects</a>
 		</li>
         <li>
-		<a href="../about/index.html">About</a>
+		<a href="about/index.html">About</a>
 		</li>
     </ul>`;
 const lk = document.createElement('link')
 //<link rel= href="../resp.css" />
 
 lk.rel = "stylesheet"
-lk.href= "../resp.css"
+lk.href= "resp.css"
 
 head.appendChild(lk)
 
 const fav = document.createElement("link");
 fav.rel = "shortcut icon";
-fav.href = "../pics/icon.png";
+fav.href = "pics/icon.png";
 fav.type = "image/x-icon";
 head.append(fav);
 const navs = document.createElement('nav')
@@ -92,15 +92,15 @@ navs.classList.add('mbnav')
 body.prepend(navs)
 
 navs.innerHTML = `<ul>
-				<li><a href="../home/index.html">Home</a></li>
-				<li><a href="../projects/index.html">Projects</a></li>
-				<li><a href="../about/index.html">About</a></li>
+				<li><a href="home/index.html">Home</a></li>
+				<li><a href="projects/index.html">Projects</a></li>
+				<li><a href="about/index.html">About</a></li>
 			</ul>`
 
 const navmbcont = document.createElement('div')
 navmbcont.classList.add('mand')
 body.prepend(navmbcont)
-navmbcont.innerHTML = `<div class="mainim"><a href="../home/index.html"><img src="../pics/kafaah.png" alt="" /></a></div>
+navmbcont.innerHTML = `<div class="mainim"><a href="home/index.html"><img src="pics/kafaah.png" alt="" /></a></div>
 			
 				<button id="menu-btn"  class="logmen">☰ Menu</button>`
 

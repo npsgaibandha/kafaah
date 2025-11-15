@@ -11,6 +11,7 @@
 	animation: comein 0.7s linear;
 	padding: 7% 9%;
 	margin-top: 80px;
+	width: 100%;
 }
 
 
@@ -81,11 +82,11 @@ h2{
 	margin:  auto;
 	text-align: center;
 	font-size: 20px;
-	color: #fff;
+	color: var(--wt);
 }
 .btn{
   margin: 10px;
-  animation: inout 4s ease infinite;
+  /* animation: inout 4s ease infinite; */
 }
 @keyframes inout{
 	0%{
@@ -128,7 +129,9 @@ h2{
   transition: .4s;
   color: #fff;
 }
-
+#twolink{
+	display: none;
+}
 .visd:hover{
   background: var(--gr);
 }

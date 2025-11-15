@@ -1,0 +1,108 @@
+@media screen and (max-width: 800px) {
+	.pictext {
+		grid-template-columns: auto;
+		justify-content: center;
+		padding: 2%;
+	}
+
+	.kafaahpic {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-top: 0;
+		padding: 0;
+		animation: comin3 0.7s linear;
+	}
+
+	.mainNav {
+		display: none;
+	}
+	.text {
+		padding: 1%;
+		margin: 0;
+	}
+	.text h2 {
+		font-size: 30px;
+	}
+	.text p {
+		font-size: 20px;
+	}
+	.proHead {
+		font-size: 17px;
+		margin-bottom: 50px;
+	}
+	.btn:hover {
+		transform: none;
+	}
+	.projectline {
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+	.mand {
+		display: flex;
+		position: sticky;
+		top: 0;
+		left: 0;
+	}
+	.btn {
+		width: 100%;
+	}
+	.projectline {
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	.pictexts {
+		margin-top: 30px;
+		flex-direction: column;
+		margin-top: 70px;
+		padding: 0;
+		height: 70vh;
+	}
+	.texts {
+		font-size: 20px;
+		text-align: center;
+	}
+	.doyosoftpic img {
+		width: 200px;
+	}
+	#onelink {
+		display: none;
+	}
+	#twolink {
+		display: block;
+	}
+	.jogdan {
+		font-size: 20px;
+		padding: 0.3%;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	.twoflex {
+		margin: 30px 0;
+	}
+	.icons {
+		margin-top: 30px;
+	}
+	.prhr {
+		grid-template-columns: auto;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+	}
+	.head {
+		font-size: 30px;
+		margin: 0;
+		animation: none;
+		text-align: center;
+	}
+	.btn {
+		margin: 0;
+		margin-bottom: 20px;
+		animation: niche 0.7s linear;
+	}
+}
