@@ -1,15 +1,15 @@
 :root {
 	--navCol: #ffffff;
-	--grad1: #019df0;
-	--grad2: #009116;
+	--grad1: #3398cf;
+	--grad2: #14b22c;
 	--wt: #fff;
 	--blue: #e1ff00;
 	--sha: #aadbf0;
 	--sda: #c1f2d6;
-	--blu: #00a6ff;
-	--grn: #00b152;
-	--gr: #44bd7c;
-	--bl: #4dc7f8;
+	--blu: #40a2d7;
+	--grn: #28bb6d;
+	--gr: #4dc183;
+	--bl: #48a5ca;
 }
 
 *,
@@ -233,7 +233,7 @@ a.active {
 	background-size: 400% 400%;
 	/* animation: Grand linear infinite 10s; */
 	color: #fff;
-	box-shadow: 0 0 15px #fff;
+	box-shadow: 0 0 7px #fff;
 
 	transition: 0.4s;
 }
@@ -309,3 +309,26 @@ a.active {
 	}
 
 }
+
+/* .kalla{
+	width: 1000px;
+	height: 1000px;
+	position: fixed;
+	top:0;
+	left: 0;
+	background: #00000028;
+	z-index: 99;
+} */
+.drk{
+	font-size: 30px;
+	padding: 8px;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	left: 0;
+ }
+ body.kalla{
+	background: #262626;
+ }

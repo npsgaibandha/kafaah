@@ -42,7 +42,7 @@ footer.innerHTML = `<div class="logos">
 			</div>
 			<div class="lan">
 				<ul>
-					<li><a href="">Terms and Conditions</a></li>
+					<li><a href="../tc/index.html">Terms and Conditions</a></li>
 					<li><a href="../memshi/index.html">Joining Conditions</a></li>
 					<li><a href="../prp/index.html">Privay and Policy</a></li>
 				</ul>
@@ -95,6 +95,9 @@ navs.innerHTML = `<ul>
 				<li><a href="../home/index.html">Home</a></li>
 				<li><a href="../projects/index.html">Projects</a></li>
 				<li><a href="../about/index.html">About</a></li>
+				<li><button id="drk">
+	🌗
+</button></li>
 			</ul>`
 
 const navmbcont = document.createElement('div')
@@ -110,3 +113,33 @@ const mbnav = document.querySelector(".mbnav");
 btnsa.addEventListener("click", () => {
 	mbnav.classList.toggle("show");
 });
+
+const drk = document.createElement('button')
+// dark.classList.add('kalla')
+// body.prepend(dark)
+drk.textContent = '🌗'
+drk.classList.add('drk')
+body.append(drk)
+const dark = document.getElementById('drk')
+
+const savedThe = localStorage.getItem('theme')
+if(savedThe == 'darkInline'){
+	body.classList.add('kalla')
+}
+
+drk.addEventListener('click',()=>{
+	body.classList.toggle('kalla')
+	if(body.classList.contains('kalla')){
+		localStorage.setItem('theme','darkInline')
+	}else{
+		localStorage.setItem('theme','light')
+	}
+})
+dark.addEventListener('click',()=>{
+	body.classList.toggle('kalla')
+	if(body.classList.contains('kalla')){
+		localStorage.setItem('theme','darkInline')
+	}else{
+		localStorage.setItem('theme','light')
+	}
+})

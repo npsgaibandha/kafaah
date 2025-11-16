@@ -42,7 +42,7 @@ footer.innerHTML = `<div class="logos">
 			</div>
 			<div class="lan">
 				<ul>
-					<li><a href="">Terms and Conditions</a></li>
+					<li><a href="./tc/index.html">Terms and Conditions</a></li>
 					<li><a href="memshi/index.html">Joining Conditions</a></li>
 					<li><a href="prp/index.html">Privay and Policy</a></li>
 				</ul>

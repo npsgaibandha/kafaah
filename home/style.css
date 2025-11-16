@@ -1,6 +1,6 @@
 :root{
 	--gr: #44bd7c;
-	--bl: #4dc7f8;
+	--bl: #5acefc;
 }
 
 .kafaahpic img {
@@ -49,7 +49,7 @@
 	text-align: center;
 	color: var(--wt);
 	font-size: 25px;
-	box-shadow: 0 0 15px #fff;
+	box-shadow: 0 0 7px #fff;
 }
 .proHead h2{
 	padding: 20px;
