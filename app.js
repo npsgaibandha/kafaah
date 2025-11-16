@@ -110,3 +110,57 @@ const mbnav = document.querySelector(".mbnav");
 btnsa.addEventListener("click", () => {
 	mbnav.classList.toggle("show");
 });
+
+navs.innerHTML = `<ul>
+				<li><a href="../home/index.html">Home</a></li>
+				<li><a href="../projects/index.html">Projects</a></li>
+				<li><a href="../about/index.html">About</a></li>
+				<li><button id="drk">
+	🌗 Dark
+</button></li>
+			</ul>`
+
+const navmbcont = document.createElement('div')
+navmbcont.classList.add('mand')
+body.prepend(navmbcont)
+navmbcont.innerHTML = `<div class="mainim"><a href="../home/index.html"><img src="../pics/kafaah.png" alt="" /></a></div>
+			
+				<button id="menu-btn"  class="logmen">☰ Menu</button>`
+
+const btnsa = document.querySelector("#menu-btn");
+const mbnav = document.querySelector(".mbnav");
+
+btnsa.addEventListener("click", () => {
+	mbnav.classList.toggle("show");
+});
+
+const drk = document.createElement('button')
+// dark.classList.add('kalla')
+// body.prepend(dark)
+drk.textContent = '🌗 Dark'
+drk.classList.add('drk')
+body.append(drk)
+const dark = document.getElementById('drk')
+
+const savedThe = localStorage.getItem('theme')
+if(savedThe == 'darkInline'){
+	body.classList.add('kalla')
+}
+
+drk.addEventListener('click',()=>{
+	body.classList.toggle('kalla')
+	if(body.classList.contains('kalla')){
+		localStorage.setItem('theme','darkInline')
+	}else{
+		localStorage.setItem('theme','light')
+	}
+})
+dark.addEventListener('click',()=>{
+	body.classList.toggle('kalla')
+	if(body.classList.contains('kalla')){
+		localStorage.setItem('theme','darkInline')
+	}else{
+		localStorage.setItem('theme','light')
+	}
+
+})
