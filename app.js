@@ -91,30 +91,12 @@ const navs = document.createElement('nav')
 navs.classList.add('mbnav')
 body.prepend(navs)
 
+
+
 navs.innerHTML = `<ul>
 				<li><a href="home/index.html">Home</a></li>
-				<li><a href="projects/index.html">Projects</a></li>
-				<li><a href="about/index.html">About</a></li>
-			</ul>`
-
-const navmbcont = document.createElement('div')
-navmbcont.classList.add('mand')
-body.prepend(navmbcont)
-navmbcont.innerHTML = `<div class="mainim"><a href="home/index.html"><img src="pics/kafaah.png" alt="" /></a></div>
-			
-				<button id="menu-btn"  class="logmen">☰ Menu</button>`
-
-const btnsa = document.querySelector("#menu-btn");
-const mbnav = document.querySelector(".mbnav");
-
-btnsa.addEventListener("click", () => {
-	mbnav.classList.toggle("show");
-});
-
-navs.innerHTML = `<ul>
-				<li><a href="../home/index.html">Home</a></li>
-				<li><a href="../projects/index.html">Projects</a></li>
-				<li><a href="../about/index.html">About</a></li>
+				<li><a href="./projects/index.html">Projects</a></li>
+				<li><a href="./about/index.html">About</a></li>
 				<li><button id="drk">
 	🌗 Dark
 </button></li>
@@ -123,7 +105,7 @@ navs.innerHTML = `<ul>
 const navmbcont = document.createElement('div')
 navmbcont.classList.add('mand')
 body.prepend(navmbcont)
-navmbcont.innerHTML = `<div class="mainim"><a href="../home/index.html"><img src="../pics/kafaah.png" alt="" /></a></div>
+navmbcont.innerHTML = `<div class="mainim"><a href="home/index.html"><img src="pics/kafaah.png" alt="" /></a></div>
 			
 				<button id="menu-btn"  class="logmen">☰ Menu</button>`
 
@@ -164,3 +146,4 @@ dark.addEventListener('click',()=>{
 	}
 
 })
+
