@@ -328,7 +328,9 @@ a.active {
 	position: fixed;
 	top: 0;
 	left: 0;
+	color: #fff;
  }
  body.kalla{
 	background: #262626;
+
  }
