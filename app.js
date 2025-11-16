@@ -91,15 +91,10 @@ const navs = document.createElement('nav')
 navs.classList.add('mbnav')
 body.prepend(navs)
 
-
-
 navs.innerHTML = `<ul>
 				<li><a href="home/index.html">Home</a></li>
-				<li><a href="./projects/index.html">Projects</a></li>
-				<li><a href="./about/index.html">About</a></li>
-				<li><button id="drk">
-	🌗 Dark
-</button></li>
+				<li><a href="projects/index.html">Projects</a></li>
+				<li><a href="about/index.html">About</a></li>
 			</ul>`
 
 const navmbcont = document.createElement('div')
@@ -115,11 +110,10 @@ const mbnav = document.querySelector(".mbnav");
 btnsa.addEventListener("click", () => {
 	mbnav.classList.toggle("show");
 });
-
 const drk = document.createElement('button')
 // dark.classList.add('kalla')
 // body.prepend(dark)
-drk.textContent = '🌗 Dark'
+drk.textContent = '🌗'
 drk.classList.add('drk')
 body.append(drk)
 const dark = document.getElementById('drk')
@@ -144,6 +138,4 @@ dark.addEventListener('click',()=>{
 	}else{
 		localStorage.setItem('theme','light')
 	}
-
 })
-

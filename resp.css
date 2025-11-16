@@ -119,11 +119,10 @@
 	.join .one{
 		margin-bottom: 50px;
 	}
-}
-.drk{
+	/* .drk{
 	
-	display: none
- }
+	right: 10px;
+ } 
  #drk{
 	font-size: 30px;
 	padding: 20px;
@@ -131,4 +130,5 @@
 	border: 0;
 	cursor: pointer;
 	
- }
+ } */
+}

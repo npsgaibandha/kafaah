@@ -9,7 +9,7 @@ body {
 	background: #262626;
 }
 .pContainer {
-	width: 90%;
+	width: 100%;
 	font-family: sans-serif;
 	display: grid;
 	/* justify-content: center; */
@@ -35,7 +35,7 @@ body {
 	padding: 3px 5px;
 	border-radius: 30px;
 	/* z-index: 1; */
-	width: 1%;
+	width: 0%;
 	box-shadow: 10px 0 15px var(--wt);
 }
 .percent #numPercent {
@@ -46,4 +46,14 @@ h4 {
 }
 .footer{
 	background: #272727;
+}
+p{
+	color: var(--wt);
+	padding:3%;
+	font-size: 18px;
+}
+h2{
+	color: var(--wt);
+	padding: 3%;
+	font-size: 30px;
 }
