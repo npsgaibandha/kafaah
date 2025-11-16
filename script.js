@@ -96,7 +96,7 @@ navs.innerHTML = `<ul>
 				<li><a href="../projects/index.html">Projects</a></li>
 				<li><a href="../about/index.html">About</a></li>
 				<li><button id="drk">
-	🌗
+	🌗 Dark
 </button></li>
 			</ul>`
 
@@ -117,7 +117,7 @@ btnsa.addEventListener("click", () => {
 const drk = document.createElement('button')
 // dark.classList.add('kalla')
 // body.prepend(dark)
-drk.textContent = '🌗'
+drk.textContent = '🌗 Dark'
 drk.classList.add('drk')
 body.append(drk)
 const dark = document.getElementById('drk')
@@ -142,4 +142,5 @@ dark.addEventListener('click',()=>{
 	}else{
 		localStorage.setItem('theme','light')
 	}
+
 })
