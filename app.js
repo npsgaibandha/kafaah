@@ -35,7 +35,7 @@ footer.innerHTML = `<div class="logos">
 				<ul>
 					<li><a href="about/index.html">About </a></li>
 					<li><a href="">Team Members</a></li>
-					<li><a href="">Join us</a></li>
+					<li><a href="https://forms.gle/Az2hgLr8bcEZQgns6">Join us</a></li>
 					<li><a href="projects/index.html">Project Info</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
